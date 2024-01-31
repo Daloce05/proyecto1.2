@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Supermercado+One&display=swap');
+
+#content-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 60vh; /* Asegura que el contenedor ocupe la altura completa de la ventana */
+}
+body{
+    font-family: 'Dancing Script', cursive;
+    margin: 0;
+    padding: 0%;
+     background: url(imagenFondo.jpg); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+   
+}
+/* Estilo para la tabla */
+table {
+    border-collapse: collapse;
+    margin-top: 20px;
+    border: 2px solid black; 
+    margin: 0%;
+    
+   
+}
+
+/* Estilo para todas las celdas de entrada */
+table input {
+    font-weight: bold;
+    font-size: 18px;
+    outline: none;
+    width: 30px; 
+    height: 30px;
+    text-align: center;
+    border: 1px solid black;
+    padding: 0;
+}
+
+/* Estilo para la celda actual en el foco */
+table input:focus {
+    background-color: #c0c0c0; 
+}
+
+/* Estilo para resaltar celdas en la misma fila o columna */
+table .highlight {
+    background-color: #ffff99; 
+}
+
+
+table td input[maxlength="0"] {
+    background-color: rgb(91, 6, 134);
+    color: rgb(91, 6, 134); 
+    text-align: center;
+    width: 20px; 
+    height: 20px; 
+    border: none;
+  }
+
+.btnGuardar{
+    background-color:rgb(91, 6, 134);;
+    border-radius: 20px;
+    padding-left: 5%;
+}
+#mensaje {
+    color: white; 
+    margin-top: 10px; 
+    
+  }
+  
+  #guardar {
+    background-color: purple; 
+    color: white;
+    border-radius: 25px;
+  }
+
+/* Estilo para el navbar */
+.navbar {
+    background-color: #000000; 
+    color: white;
+    height: 100px;
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Estilo para el título (brand-logo) */
+  .brand-logo {
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+  }
+
+  .titulo{
+    padding-left: 20%;
+  }
+  
+  /* Estilo para el menú */
+  .menu {
+    list-style: none;
+    margin-left: auto;
+    padding-left: 350%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .menu li {
+    margin: 0 10px;
+  }
+  
+  .menu li a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+  }
+
+  /* Estilo para el footer */
+.page-footer {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Estilo para los enlaces en el footer */
+  .page-footer a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  
+  /* Estilo para el ícono de Facebook */
+  .icon-facebook::before {
+    content: "\f09a"; /* Código Unicode para el ícono de Facebook */
+    font-family: FontAwesome; 
+    font-size: 24px;
+    vertical-align: middle;
+  }
+
+  #crucigrama {
+    justify-content: center;
+    text-align: center; 
+    align-items: center;
+    width: 100%;
+    display: flex;
+  }
+  #titulo-crucigrama{
+    text-align: center;
+    width: 100%;
+  }
+  #btnGuardar{
+    width: 100%;
+    text-align: center;
+  }
+  h1{
+    color: white;
+    text-align: center;
+  }
+
+  /* Estilo para los mensajes */
+#mensaje-arriba {
+  color: white;
+  text-align: center;
+  padding: 5px;
+  top: 0;
+  left: 0;
+  width: 100%;
+  
+}
+
+ 
+
+  
+

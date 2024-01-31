@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Supermercado+One&display=swap');
+
+body{
+    font-family: 'Dancing Script', cursive;
+    margin: 0;
+    padding: 0%;
+    background: url(imagenFondo.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+   
+    
+}
+#Titulo_body{
+    color: aliceblue;
+}
+.page-footer{
+    background: black;
+}
+.card-content{
+    align-items: center;
+    
+    
+}
+h3{
+    color: aliceblue;
+}
+.error{
+	/* background-color: #de8c8c; */
+	color: red;
+	
+}
+
+.success{
+    background-color: blue;
+}
+#formulario_registro{
+    color: rgb(255, 255, 255);
+    
+}
+
+.card {
+    margin: 0 40px; /* Espacio de 80px entre las tarjetas (40px en cada lado) */
+  }
+
+  .center-align {
+    display: flex;
+    justify-content: center;
+  }

@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Supermercado+One&display=swap');
+
+body{
+    font-family: 'Dancing Script', cursive;
+    margin: 0;
+    padding: 0%;
+    background: url(imagenFondo.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+   
+    
+}
+.carousel .carousel-item{ 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+    width: 500px;
+}
+.carousel{
+    min-height: 500px;
+}
+
+.carousel .carousel-item img{
+    width: 80%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0%;
+    z-index: -1;
+    border-radius: 15px;
+}
+.carousel .indicators .indicator-item{
+    border-radius: 0%;
+    transform: rotate(45deg);
+    
+}
+h2{
+    color: aliceblue;
+}
+.imagenFondo{
+    min-height: 100vh;
+    background: url('imagenFondo.jpg') no-repeat center center fixed;
+    background-size:cover;
+
+}
+#Titulo_body{
+    color: aliceblue;
+}
+.page-footer{
+    background: black;
+}
+
+.social-icons {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .social-icons li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .social-icons a {
+    color: #fff;
+    font-size: 24px;
+    text-decoration: none;
+  }
+  
+  .social-icons a:hover {
+    color: #0073e6; /* Cambia el color al pasar el cursor sobre los iconos */
+  }
+    

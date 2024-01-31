@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Supermercado+One&display=swap');
+
+body{
+    font-family: 'Dancing Script', cursive;
+    margin: 0;
+    padding: 0%;
+    background: url(imagenFondo.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+   
+    
+}
+#Titulo_body{
+    color: aliceblue;
+}
+.page-footer{
+    background: black;
+}
+
+.center-align {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
